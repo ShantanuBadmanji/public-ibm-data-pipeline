@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configuration>
+  <databases>
+    <database host="<something>.databases.appdomain.cloud" name="<db-name>" port="<port-no>"/>
+  </databases>
+
+  <dsncollection>
+    <dsn alias="<alia-to-db>" host="<something>.databases.appdomain.cloud" name="<db-name>" port="<port-no>">
+      <parameter name="SecurityTransportMode" value="SSL"/>
+    </dsn>
+  </dsncollection>
+
+
+</configuration>
